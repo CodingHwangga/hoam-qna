@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabaseClient";
 import AnswerForm from "./AnswerForm";
 import CaseStageSelect from "./CaseStageSelect";
 
+
 type Question = {
   id: number;
   title: string;
